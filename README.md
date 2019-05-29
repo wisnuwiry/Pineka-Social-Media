@@ -34,9 +34,10 @@
  
  ## Screenshot
 
-Attempt | Landing | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+Attempt | Landing | Home | All User | Notification | Profile | Post 
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | ![landing](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190529-081357.png) | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Seconds | ![landing](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190529-081357.png) | ![Home](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114222.png) | ![All User](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114229.png) | [Notification](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114248.png) | [Profile](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114301.png) | [Post](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114356.png) 
 
  
 Please follow and Contribution
+[Facebook](https://www.facebook.com/wisnu.ginanjarsaputra.39)
