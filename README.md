@@ -33,15 +33,10 @@
  
  
  ## Screenshot
- 
-[landing](screenshot/Screenshot_20190529-081357.png)
-[landing](screenshot/Screenshot_20190529-081357.png)
-[landing](screenshot/Screenshot_20190529-081357.png)
-[landing](screenshot/Screenshot_20190529-081357.png)
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+Attempt | Landing | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Seconds | ![landing](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190529-081357.png) | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
  
 Please follow and Contribution
