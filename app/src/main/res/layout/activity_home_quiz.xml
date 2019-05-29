@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Quiz.HomeQuizActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo_pineka"/>
+
+    <TextView
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:text="HS: 0"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/category"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+                <ToggleButton
+                    android:id="@+id/pknBtn"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/pkn"
+                    android:textColor="@color/toggle"
+                    android:textOff="PKN"
+                    android:textOn="Selected"/>
+
+                <ToggleButton
+                    android:id="@+id/budayaBtn"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/budaya"
+                    android:textOff="Budaya"
+                    android:textColor="@color/toggle"
+                    android:textOn="Selected"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+                <ToggleButton
+                    android:id="@+id/bhinekaBtn"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/bhinneka"
+                    android:textOff="bhineka"
+                    android:textColor="@color/toggle"
+                    android:textOn="Selected"/>
+
+                <ToggleButton
+                    android:id="@+id/sejarahBtn"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/sejarah"
+                    android:textOff="Sejarah"
+                    android:textColor="@color/toggle"
+                    android:textOn="Selected"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+<android.support.v7.widget.CardView
+    android:layout_centerHorizontal="true"
+    android:layout_width="135dp"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/j"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="22dp"
+    android:id="@+id/card2">
+
+    <Spinner
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#ED5050"
+        app:cardCornerRadius="20dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:background="@color/transparent"
+            android:id="@+id/button_start_quiz"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Start Quiz"
+            android:textColor="@color/white"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

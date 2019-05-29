@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Quiz.QuizActivity">
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:freezesText="true"
+        android:text="00:30"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_backgroud"
+        android:text="Finish" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_above="@id/lin1"
+        android:id="@+id/card"
+        android:layout_margin="10dp"
+        android:layout_below="@id/text_view_countdown"
+        app:cardCornerRadius="12dp"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/text_view_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Pertanyaan...?...."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </android.support.v7.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/radio_group"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_backgroud"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_backgroud"
+            android:text="skip" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/button_confirm_next">
+
+            <RadioButton
+                android:padding="15dp"
+                android:textColor="@color/toggle"
+                android:id="@+id/radio_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:background="@drawable/radiobtn"
+                android:text="Pilihan 1" />
+
+            <RadioButton
+                android:id="@+id/radio_button2"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:textColor="@color/toggle"
+                android:background="@drawable/radiobtn"
+                android:text="Pilihan 2" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_confirm_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_backgroud"
+        android:textColor="@color/white"
+        android:freezesText="true"
+        android:text="Confirm" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/text_view_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:text="Score: 0"
+        android:textSize="17sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_view_question_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:freezesText="true"
+        android:text="1/x"
+        android:textSize="17sp"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

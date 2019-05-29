@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>Tour</item>
+        <item>Art and culture</item>
+        <item>Food and Drink</item>
+    </string-array>
+</resources>

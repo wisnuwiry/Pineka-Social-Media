@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PinekaApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="api">AIzaSyBP8bUkUHN-CxP-FWJBnSRebwlti3t7o5U</string>
+    <string name="expand">collaps</string>
+    <string name="collapse">more..</string>
+    <string name="cancel">cancel</string>
+    <string name="action_settings">settings</string>
+    <string name="GPSAlertDialogMessage">gps alert dialog</string>
+    <string name="GPSAlertDialogTitle">Gps Alert dialog tittle</string>
+</resources>
