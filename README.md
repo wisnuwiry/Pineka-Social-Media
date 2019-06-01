@@ -40,4 +40,7 @@ Landing | Home | All User | Notification | Profile | Post
 
  
 Please follow and Contribution
+
 [Facebook](https://www.facebook.com/wisnu.ginanjarsaputra.39)
+[Twitter](https://twitter.com/WisnuSaputraKey)
+[Instagram](https://www.instagram.com/wisnu_saputrakey)
