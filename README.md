@@ -35,7 +35,7 @@
  ## Screenshot
 
 Attempt | Landing | Home | All User | Notification | Profile | Post 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+--- | --- | --- | --- |--- |--- |--- 
 Seconds | ![landing](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190529-081357.png) | ![Home](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114222.png) | ![All User](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114229.png) | [Notification](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114248.png) | [Profile](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114301.png) | [Post](https://github.com/SaputraGo/Pineka-Social-Media/blob/master/screenshot/Screenshot_20190528-114356.png) 
 
  
