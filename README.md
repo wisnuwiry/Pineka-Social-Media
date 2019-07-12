@@ -1,5 +1,7 @@
 # Pineka-Social-Media
   
+  [](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)
+  
   Pineka is app for Android simillar with Instagram. This app interated with Firebase.
  # Feature
  1. View Posts
