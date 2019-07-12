@@ -1,6 +1,6 @@
 # Pineka-Social-Media
   
-  [](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)
+ <a href="https://play.google.com/store/apps/details?id=com.wisnusaputra.pinekaapp"><img class="irc_mi" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="304" height="118"></a>
   
   Pineka is app for Android simillar with Instagram. This app interated with Firebase.
  # Feature
